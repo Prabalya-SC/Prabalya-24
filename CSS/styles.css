@@ -52,7 +52,7 @@ body{
   ul li a{
     padding: 0 30px;
     text-decoration: none;
-    color: #999;
+    color: #ffffff;
     display: inline-block;
     transition: all .50s ease;
   }
@@ -62,6 +62,7 @@ body{
   }
 
   li a::after{
+    color: #C82B00;
     content: '';
     display: block;
     height: 4px;
@@ -90,19 +91,19 @@ body{
     font-weight: 500;
     transition: all .50s ease;
     padding: 10px 17px;
-    background-color: #999;
+    background-color: #ffffff;
     border-radius: 5px;
     
   }
 
   .main a:hover{
-    color: #fff;
-    background-color: #C82B00
+    color: #f3f3f3;
+    background-color: #000000
   }
 
   #menuIcon{
     font-size: 35px;
-    color: #fff;
+    color: #0066ff;
     cursor: pointer;
     z-index: 10001;
     display: none;
